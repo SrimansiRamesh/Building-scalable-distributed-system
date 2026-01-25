@@ -31,7 +31,7 @@ def load_test(url, duration_seconds=30):
     return response_times
 
 # Replace with your EC2 public IP
-EC2_URL = "http://34.216.169.47:8080/albums"
+EC2_URL = "http://44.251.242.183:8080/albums"
 
 # Run the test
 response_times = load_test(EC2_URL)

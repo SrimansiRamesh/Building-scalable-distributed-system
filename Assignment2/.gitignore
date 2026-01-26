@@ -4,6 +4,6 @@
 **/*.tfstate.backup
 **/.terraform.lock.hcl
 *.tfvars
-
+part5/
 # Docker images
 *.tar

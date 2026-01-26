@@ -10,20 +10,14 @@ variable "ssh_key_name" {
   description = "Name of your existing AWS key pair"
 }
 
-variable "ami_id" {
-  type        = string
-  description = "AMI ID for Amazon Linux 2023"
-  default     = "ami-055a9df0c8c9f681c"  
-}
-
 # The provider of your cloud service, in this case it is AWS. 
 provider "aws" {
-  region     = "us-west-2" # Which region you are working on
+  region     = "us-east-1" # Which region you are working on
 }
 
 # Your ec2 instance
 resource "aws_instance" "demo-instance" {
-  ami                    = var.ami_id
+  ami                    = data.aws_ami.al2023.id
   instance_type          = "t2.micro"
   iam_instance_profile   = "LabInstanceProfile"
   vpc_security_group_ids = [aws_security_group.ssh.id]
@@ -46,13 +40,6 @@ resource "aws_security_group" "ssh" {
     protocol    = "tcp"
     cidr_blocks = [var.ssh_cidr]
   }
-  ingress {
-    description = "Go API"
-    from_port   = 8080
-    to_port     = 8080
-    protocol    = "tcp"
-    cidr_blocks = [var.ssh_cidr]   
-  }
   egress {
     from_port   = 0
     to_port     = 0
@@ -61,10 +48,16 @@ resource "aws_security_group" "ssh" {
   }
 }
 
-output "ec2_public_dns" {
-  value = aws_instance.demo-instance.public_dns
+# latest Amazon Linux 2023 AMI
+data "aws_ami" "al2023" {
+  most_recent = true
+  owners      = ["amazon"]
+  filter {
+    name   = "name"
+    values = ["al2023-ami-*-x86_64-ebs"]
+  }
 }
 
-output "ec2_public_ip" {
-  value = aws_instance.demo-instance.public_ip
+output "ec2_public_dns" {
+  value = aws_instance.demo-instance.public_dns
 }

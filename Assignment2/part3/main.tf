@@ -24,14 +24,14 @@ resource "aws_instance" "demo-instance" {
   key_name               = var.ssh_key_name
 
   tags = {
-    Name = "terraform-created-instance-:)"
+    Name = "terraform-created-instance-part3"
   }
 }
 
 # Your security that grants ssh access from 
 # your ip address to your ec2 instance
 resource "aws_security_group" "ssh" {
-  name        = "allow_ssh_from_me"
+  name        = "security-group-part3"
   description = "SSH from a single IP"
   ingress {
     description = "SSH"

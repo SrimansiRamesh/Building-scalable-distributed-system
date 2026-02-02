@@ -1,4 +1,4 @@
-module example/web-service-gin
+module albums-api
 
 go 1.23.0
 

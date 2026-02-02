@@ -24,7 +24,7 @@ resource "aws_instance" "demo-instance" {
   key_name               = var.ssh_key_name
 
   tags = {
-    Name = "terraform-created-instance-:)"
+    Name = "terraform-created-instance-part2"
   }
 }
 

@@ -1,7 +1,7 @@
 from locust import task, between
-from locust.contrib.fasthttp import FastHttpUser  # Changed import
+from locust.contrib.fasthttp import FastHttpUser  
 
-class AlbumUser(FastHttpUser):  # Changed from HttpUser
+class AlbumUser(FastHttpUser):  
     wait_time = between(1, 2)
 
     @task(3)

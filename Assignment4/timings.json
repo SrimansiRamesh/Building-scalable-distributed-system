@@ -1,0 +1,22 @@
+[
+  {
+    "phase": "split",
+    "duration_ns": 267533958,
+    "duration_ms": 267
+  },
+  {
+    "phase": "map",
+    "duration_ns": 224311083,
+    "duration_ms": 224
+  },
+  {
+    "phase": "reduce",
+    "duration_ns": 191058583,
+    "duration_ms": 191
+  },
+  {
+    "phase": "total",
+    "duration_ns": 682903624,
+    "duration_ms": 682
+  }
+]

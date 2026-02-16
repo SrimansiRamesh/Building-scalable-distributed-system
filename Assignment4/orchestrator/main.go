@@ -184,7 +184,7 @@ func callMappersParallel(mapperAddrs []string, chunkURLs []string) ([]MapperResp
 		go func(idx int, chunk string) {
 			defer wg.Done()
 
-			// Use mapper address based on index (round-robin if fewer mappers than chunks)
+			// Use mapper address based on index
 			mapperAddr := mapperAddrs[idx%len(mapperAddrs)]
 			reqURL := fmt.Sprintf("%s/map?url=%s", mapperAddr, url.QueryEscape(chunk))
 

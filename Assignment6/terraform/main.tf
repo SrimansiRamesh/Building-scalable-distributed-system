@@ -27,12 +27,22 @@ module "ecs" {
   service_name       = var.service_name
   image              = "${module.ecr.repository_url}:latest"
   container_port     = var.container_port
-  subnet_ids         = module.network.subnet_ids
-  security_group_ids = [module.network.security_group_id]
+  subnet_ids         = local.public_subnet_ids
+  security_group_ids = [aws_security_group.ecs_sg.id]   # Use ALB-aware security group
   execution_role_arn = data.aws_iam_role.lab_role.arn
   task_role_arn      = data.aws_iam_role.lab_role.arn
   log_group_name     = module.logging.log_group_name
-  ecs_count          = var.ecs_count
+  ecs_count          = 2                                 # Min 2 for auto scaling
   region             = var.aws_region
+  target_group_arn   = aws_lb_target_group.app_tg.arn   # Wire to ALB
 }
 
+#output "ecs_cluster_name" {
+ # description = "Name of the created ECS cluster"
+ # value       = module.ecs.cluster_name
+#}
+
+#output "ecs_service_name" {
+ # description = "Name of the running ECS service"
+ # value       = module.ecs.service_name
+#}

@@ -110,6 +110,8 @@ resource "aws_appautoscaling_target" "ecs_target" {
   resource_id        = "service/${local.ecs_cluster_name}/${local.ecs_service_name}"
   scalable_dimension = "ecs:service:DesiredCount"
   service_namespace  = "ecs"
+  depends_on = [module.ecs]
+
 }
 
 # Auto Scaling Policy (Target Tracking: 70% CPU) 

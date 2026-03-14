@@ -1,3 +1,4 @@
 .terraform/
 .terraform.lock.hcl
 /Midterm_mystery_1/
+*.pdf

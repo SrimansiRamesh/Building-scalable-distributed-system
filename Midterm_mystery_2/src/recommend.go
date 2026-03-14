@@ -115,7 +115,6 @@ func (cb *CircuitBreaker) State() string {
 	return "unknown"
 }
 
-// ── Protected Recommend Call ──────────────────────────────────────────────────
 // Wraps the flaky service with:
 //  1. Circuit breaker — skip the call entirely if circuit is open
 //  2. Fail fast (timeout) — give up after 500ms instead of waiting forever

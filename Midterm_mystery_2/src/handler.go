@@ -60,14 +60,10 @@ func (h *Handler) SearchProducts(c *gin.Context) {
 	protectionEnabled := os.Getenv("PROTECTION_ENABLED") == "true"
 
 	if protectionEnabled {
-		// ── FIXED: fail fast timeout + circuit breaker ──────────────────
 		ctx, cancel := context.WithTimeout(c.Request.Context(), recommendTimeout)
 		defer cancel()
 		recs, recStatus = getRecommendationsProtected(ctx, h.cb, productIDs)
 	} else {
-		// ── BROKEN: no timeout, no circuit breaker ──────────────────────
-		// If recommend is slow, this entire handler blocks.
-		// 20 concurrent users = 20 goroutines hanging here simultaneously.
 		var err error
 		recs, err = getRecommendationsFlaky(productIDs)
 		if err != nil {

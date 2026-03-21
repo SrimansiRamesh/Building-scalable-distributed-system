@@ -1,0 +1,462 @@
+[
+  {
+    "scenario": "read_after_write",
+    "cart_id": "975ee03f-7dd3-565b-5785-8daa4f753d3a",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 90.07120807655156,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.065361Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "03349813-bcda-3c0d-c96b-4e933da9314b",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 70.38745912723243,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.202427Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "d977a7c8-d504-0f0b-43b0-4ca64e625e24",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 60.21970906294882,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.404759Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "3c8f2fb5-099e-968f-e370-381f39ababb9",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 60.77862507663667,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.538568Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "672e5b71-b020-0fbc-a126-e54568c84128",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 57.31858289800584,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.664212Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "cd38d7fd-7d06-f1e3-21ab-60c20816925c",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 130.43420808389783,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.858610Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "133e6de2-0e06-647a-3996-c60b6bf55919",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 62.18112516216934,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:31.988876Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "5a8cea4a-a9a7-327d-ad94-33387af2d9a8",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 58.55125002563,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.124035Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "e2c0e3d1-050e-6f57-b86d-99ec98396e42",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 61.399040976539254,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.258824Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "cb49170b-73a2-f11d-24a0-f2cc7b2d16f8",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 76.16766705177724,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.490595Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "215e881d-3e79-ce40-da28-7f6d1fedc854",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 72.43108283728361,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.632739Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "4738987c-ae0a-5e94-64bb-83f9b577483c",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 58.82083298638463,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.760846Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "4b199752-3eaf-a01a-bce4-bdc417ef0023",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 68.6039999127388,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:32.981188Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "b22ba221-ac79-ca66-6604-1eb141c84f61",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 58.03629104048014,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.109235Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "f7e0518a-77a3-981c-4f01-4f50a4641efd",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 68.9070001244545,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.247576Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "12f5a310-ed60-3d45-5300-f13c2d881d4e",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 64.06587501987815,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.462719Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "01fa61db-a60a-fe75-ad87-2cf1e93280ce",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 73.73429206199944,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.600251Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "25eb5566-b4e5-92fb-0f6f-7aa1dd11f0a3",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 57.42462491616607,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.722997Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "d6372ed9-10b5-37a8-72ac-b2840b114f37",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 131.28537498414516,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:33.921263Z"
+  },
+  {
+    "scenario": "read_after_write",
+    "cart_id": "96cada4f-f187-c5b1-53ca-ac401b7fdb37",
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 59.46479202248156,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:34.061686Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "52ce875b-de73-325f-d174-b4097678471c",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 69.9773330707103,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:34.329935Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "8355881b-7fbd-5427-115b-51bed6cc31e3",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 87.1057917829603,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:34.724174Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "e8462a49-024a-e1b6-6272-15e3a9b186cc",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 77.38758297637105,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:35.083807Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "74d2061e-ded8-a847-3a1c-1689ae0ee44a",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 56.668000062927604,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:35.366354Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "cc307271-55a6-873b-c660-f609cb7c67ec",
+    "product_id": 3,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 62.39341595210135,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:35.688701Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "0a170050-f7ad-8a76-ebf3-be1c1e72813c",
+    "product_id": 1,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 135.5104160029441,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:36.018200Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "6d141ae9-a755-8e5d-c576-a78dfd5c7759",
+    "product_id": 5,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 68.71266686357558,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:36.275246Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "db26879e-7d2c-d055-a21d-f528b330b02a",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 72.41541682742536,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:36.627469Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "bb6404cd-be69-fcb9-57d1-9af779a20f30",
+    "product_id": 4,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 69.3128330167383,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:36.904324Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "27ef3f9f-e66f-700a-1c27-7e066ae4d442",
+    "product_id": 1,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 80.9190000873059,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:37.205669Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "f3eb82b0-4991-c394-c99e-3786810e6dc8",
+    "product_id": 3,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 66.50008307769895,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:37.486516Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "09e922b7-08e8-5693-5d1d-6653a598e8ed",
+    "product_id": 5,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 63.24950000271201,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:37.813404Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "a517212f-2245-362f-1876-5eae5d6de6b9",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 148.35258293896914,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:38.147392Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "dcd4022a-32a5-32e3-cd75-f76689650313",
+    "product_id": 5,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 64.4096250180155,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:38.403658Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "adc8b61a-fed4-3da3-d270-55773ddbb765",
+    "product_id": 1,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 81.43912488594651,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:38.773916Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "0b653e1e-5d47-ca40-892c-0f10cd2156e9",
+    "product_id": 1,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 81.82420814409852,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:39.048261Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "4e45c1b2-6a9d-bfff-8f2b-5503af016c2a",
+    "product_id": 4,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 66.13070797175169,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:39.395721Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "373004e8-8c29-468e-1d83-a1d5e61c23fd",
+    "product_id": 4,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 130.6715828832239,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:39.724040Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "bba532ce-fa59-58b5-42be-8df08034e652",
+    "product_id": 2,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 82.34808291308582,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:40.090941Z"
+  },
+  {
+    "scenario": "item_visibility",
+    "cart_id": "a097128c-ea83-9948-9194-29e06d06c6ee",
+    "product_id": 5,
+    "consistent_on_first_read": true,
+    "time_to_consistent_ms": 62.69966694526374,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:40.484135Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "49e20a28-94cf-7d9d-6bbb-99552661e278",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 76.94662502035499,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:40.915870Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "38e1a07c-6e30-996b-3d9e-d51c117587cf",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 84.87245789729059,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:41.350830Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "125015f0-76a2-2bc9-b78a-22d7d2c4e589",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 168.0513748433441,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:41.784752Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "6764dd45-aca8-9128-7d5c-12e1f67fecc4",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 77.37395795993507,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:42.116330Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "3aa8c4ae-4f27-d8b8-d79c-fedadc8ed12f",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 95.84524994716048,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:42.494443Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "5d882b6d-64e9-7f4c-244c-d625e21418ab",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 68.45179200172424,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:42.906900Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "d360ccc9-0043-19f7-16e3-1a46f897dae2",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 68.29295819625258,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:43.224488Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "e2d0f89f-920d-9eef-28e7-13eaf08ff2f7",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 68.6528340447694,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:43.616671Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "e6f3c6a1-6b87-9ace-dfbe-9f64816ba947",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 86.31883398629725,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:44.046833Z"
+  },
+  {
+    "scenario": "concurrent_updates",
+    "cart_id": "2f45a065-8d4f-4d70-6b9d-8836525bf3a0",
+    "writers": 5,
+    "write_errors": 0,
+    "expected_items": 5,
+    "visible_items_after_read": 5,
+    "all_items_visible": true,
+    "time_to_consistent_ms": 140.2677078731358,
+    "read_attempts": 1,
+    "timestamp": "2026-03-21T20:13:44.444774Z"
+  }
+]
